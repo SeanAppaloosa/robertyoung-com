@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /wp-admin/
-Allow: /wp-admin/admin-ajax.php
-
-Sitemap: https://cdn.appaloosa.tech/robertyoung-com/wp-sitemap.xml
