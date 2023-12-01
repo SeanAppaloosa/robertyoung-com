@@ -1,0 +1,242 @@
+.dd-admin-page {
+    background-color: #F1F1F1;           
+    margin: 10px 20px 0 2px;
+}
+.dd-admin-page p {
+    font-size: 14px !important;
+}
+.dd-admin-page .notice, .dd-admin-page div.error, .dd-admin-page div.updated {
+    margin: 0px;
+}
+.dd-admin-page .notice-success, .dd-admin-page div.updated {
+    border-left-color: #F19649;
+}
+
+.dd-admin-row {  
+    padding: 16px 40px 37px 40px;
+}
+.dd-admin-row-inner {
+    padding: 0px 40px 0px 40px;
+}
+
+.dd-admin-col-3 {
+    width: 33.3%;
+    float:left;
+}
+.dd-admin-col-first > * {
+    margin-right: 4%;
+}
+.dd-admin-col-inner > * {
+    margin-left: 2%;
+    margin-right: 2%;
+}       
+.dd-admin-col-last > * {
+    margin-left: 4%;
+}
+
+.dd-admin-title {
+    position: relative;
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dd-admin-title-description {
+    vertical-align: top;
+    margin-top: 5px;
+}        
+.dd-admin-title-description h2 {
+    font-weight: 700;
+}  
+.dd-admin-title-description p {
+    font-weight: 600;
+}        
+
+.dd-admin-info {
+    padding: 30px 50px 30px 50px; 
+    font-weight: 600;
+    line-height: 1.4em;
+    background-color: #F4E7CC;
+    border-style: solid;
+    border-radius: 5px 5px 5px 5px;
+    border-width: 2px;
+    border-color:  #F19649;
+}
+.dd-admin-info h2 {
+    color: #764699;
+}
+
+.dd-admin-box {
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.dd-admin-box-header {
+    background-image: linear-gradient(to right, #F19649, #ffcb58);
+    padding: 20px 20px 15px 25px;
+}
+.dd-admin-box-header .dd-tooltip-description {
+    display: none;
+    position: absolute;
+    background: #ffffff;
+    padding: 20px;
+    top: 10px;
+    left: 10px;
+    margin-right: 50px;
+    border: 2px solid #764699;
+    border-radius: 5px 5px 5px 5px;
+}
+.dd-admin-box-header-title {
+    color: #FFF;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+.dd-admin-box-header-tagline {
+    font-weight: 600; 
+}
+.dd-admin-box-content {
+    background-color: #F2DDB5;
+    padding: 20px 50px;
+}
+.dd-admin-box .dd-switch-container {
+    display: flex;
+    align-items: center;
+}
+.dd-admin-box .dd-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+.dd-admin-box .dd-switch > input {
+    display:none;
+}
+.dd-admin-box .dd-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #E5BF80; 
+    border-radius: 20px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.dd-admin-box .dd-slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.dd-admin-box input[type="checkbox"]:checked + .dd-slider {
+    background-color:#F19649;
+}
+
+.dd-admin-box input[type="checkbox"]:focus + .dd-slider {
+    box-shadow: 0 0 1px #F19649;
+}
+
+.dd-admin-box input[type="checkbox"]:checked + .dd-slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.dd-admin-box .dd-switch-option {
+    font-size:16px;
+    font-weight: 500; 
+    padding-left: 10px;
+}
+
+.dd-admin-box .dd-post-type {
+    margin-left: 70px; /* 30px */
+}
+
+.dd-admin-box input[type="radio"]:checked:before {
+    background-color: #764699;
+}
+.dd-admin-box input[type=checkbox]:checked:before {
+    color: #764699;
+}
+.dd-admin-box-content select, .dd-admin-box-content input[type="text"] {
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    padding-left: 16px;
+    color: #444;
+    font-weight: 600;
+    background-color: #eee; 
+}
+.dd-admin-box-content select#pages:focus {
+    border-color: #ddd;
+    box-shadow: 0 0 2px #ddd;
+}
+.dd-admin-box-content select#pages:focus>option:checked {
+    background-color: #764699 !important;
+    box-shadow: 0 0 10px 100px #764699 inset;
+}
+
+.dd-admin-box-content .dd-select-legend {
+    margin: -5px 10px 10px 2px;
+    font-size: 13px !important;
+    font-style: italic;
+}
+
+.dd-admin-button {
+    cursor: pointer;
+    position: relative;
+    background-color: #ccc;
+    padding: 20px 20px 15px 25px;
+    text-align: center;
+}
+
+.wp-core-ui .button.dd-submit {
+    background-color: #00BBA3;
+    border-width: 0px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    height: auto;
+    line-height: 1.7em;
+    padding: 10px 20px;
+}
+
+.dd-admin-footer a {
+    color: #444;
+    text-decoration: none;
+}
+
+@media only screen and ( max-width: 980px ) {
+    .dd-admin-col-first > *, .dd-admin-col-inner > *, .dd-admin-col-last > *  {
+        margin: 0;
+    }
+    .dd-admin-col-3 {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .dd-admin-col-last {
+        margin: 0;
+    }   
+}
+
+@media only screen and ( max-width: 767px ) {
+    
+    .dd-admin-title-description {
+        margin-top: -30px;
+    }
+    .dd-admin-title-image img {
+        max-width: 300px;
+    }
+    .dd-admin-box .dd-post-type {
+        margin-left: 0px;
+    }
+}

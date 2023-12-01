@@ -1,0 +1,21 @@
+.et-fb-modules-list li[class^="dondivi"] {
+    padding: 15px 5px 10px 5px !important;
+}
+
+.et-fb-preview--wireframe .ddb-popup-c {
+    display:none!important;
+}
+
+#page-container>.ddb-popup-c .et-pb-fa-icon {
+    font-family: FontAwesome!important;
+}
+#page-container>.ddb-popup-c .et-pb-black-icon {
+    font-weight: 900!important;
+}
+
+.ddb-module-placeholder {
+    color: purple;
+    outline: 2px purple dotted;
+    background-color: rgb(255,239,255);
+    padding: 10px;
+}
